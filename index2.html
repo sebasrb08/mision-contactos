@@ -5,28 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style2.css">
+
 </head>
 <body>
+    <div class="rojo">
+    </div>
     <div class="contenedor">
+        <form action="">
         <div class="title">
             <h1>Registro Personas</h1>
         </div>
+        <div class="devolver">
+            <img  id="devolver" src="./imagen/devolver.svg" alt="">
+        </div>
         <div class="nombreApellido">
-            <label for="">Nombres</label>
-            <input id="nombre" type="text" required>
-        
-            <label for="">Apellidos</label>
-            <input id="apellido" type="text"required>
+            <div class="nombres">
+                <label for="">Nombres</label>
+                <input id="nombre" type="text" required>
+            </div>
+            <div class="apellidos">
+                <label for="">Apellidos</label>
+                <input id="apellido" type="text"required>
+            </div>
         </div>
         <div class="fila2">
-            <label for="">Area</label>
-            <input id="area" type="text" required>
-            
-            <label for="Usuario">Usuario</label>
-            <input id="usuario" type="text" required>
-
-            <label for="">Edad</label>
-            <input id="edad" type="number" required>
+            <div class="first">
+                <label for="">Area</label>
+                <input id="area" type="text" required>
+            </div>
+            <div class="second">
+                <label for="Usuario">Usuario</label>
+                <input id="usuario" type="text" required>
+            </div>
+            <div class="third">
+                <label for="">Edad</label>
+                <input id="edad" type="number" required>
+            </div>
         </div>
         <div class="direccion">
             <label for="">Direccion</label>
@@ -39,6 +55,7 @@
         <div class="boton">
             <button id="boton">Enviar</button>
         </div>
+        </form>
     </div>
     
 

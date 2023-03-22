@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.contenedor{
+    height: 100%;
+    padding-left:20px ;
+    padding-right:20px ;
+
+}
+.navegacion{
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+.titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crear button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgb(233, 52, 52);
+    color: white;
+}
+.Buscar_Usuario{
+    height: 20%;
+    font-size: 25px;
+}
+.Buscar_Usuario input{
+    width: 30%;
+    height: 20%;
+    border-radius: 10px;
+}
